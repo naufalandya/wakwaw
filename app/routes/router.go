@@ -9,6 +9,6 @@ import (
 func SetupRoutes(app *fiber.App) {
 	api := app.Group("/api")
 
-	api.Get("/oracle/lol", handler.GetSavedNumbersWow)
+	api.Get("/oracle/lol", handler.GetUsersWow)
 
 }
